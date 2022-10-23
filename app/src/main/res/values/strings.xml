@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="restantes">Intentos restantes</string>
+    <string name="deber">Adivina el numero secretro entre 1 y 100 (Intentos %1$d)</string>
+    <string name="botonTexto">PRUEBA ESTE NÚMERO</string>
+    <string name="endGame">Fin de juego!</string>
+    <string name="colorFinal">#FF57FF2C</string>
+    <string name="pistaMenor">"Adívina el número secreto! Una pista, es menor. Intentos restantes:"</string>
+    <string name="pistaMayor">Adivina el numero secreto! Una pista, es mayor. Intentos restantes:</string>
+    <string name="noIntentos">¡Has perdido!, el número era</string>
+    <string name="acertado">Felicidades! Has acertado :D</string>
+    <string name="msg_centro">Introduce un número entre 0 y 100</string>
+</resources>
