@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         TextView restantes = findViewById(R.id.textoIntentos);
         TextView msgCentro = findViewById(R.id.textoPista);
 
-        restantes.setText("Te quedan " + rN.intentos + " intentos");
+
         msgCentro.setText(R.string.msg_centro);
         layout.setBackgroundColor(getResources().getColor(R.color.normalBackground));
         btnCheck.setEnabled(true);
@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                restantes.setText("Te quedan " + (rN.intentos - 1) + " intentos");
 
                 if (rN.validAttempts()) {
                     if (rN.isCorrect(Integer.parseInt(nr.getText().toString()))) {

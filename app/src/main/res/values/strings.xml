@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">GuessNumber</string>
-    <string name="restantes">Intentos restantes</string>
+    <string name="restantes">Te quedan 5 intentos</string>
     <string name="deber">Adivina el numero secretro entre 1 y 100 (Intentos %1$d)</string>
     <string name="botonTexto">PRUEBA ESTE NÚMERO</string>
     <string name="endGame">Fin de juego!</string>
